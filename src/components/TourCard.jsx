@@ -1,5 +1,9 @@
-import { Paper } from '@mui/material';
+import { Grid, Paper } from '@mui/material';
 
 export default function TourCard() {
-  return <Paper elevation={5}>TourCard</Paper>;
+  return (
+    <Grid item xs={3}>
+      <Paper elevation={5}>TourCard</Paper>
+    </Grid>
+  );
 }
