@@ -4,12 +4,12 @@ import TourCard from './components/TourCard';
 
 function App() {
   return (
-    <Container>
-      <Grid container spacing={5}>
-        <TourCard />
-        <TourCard />
-        <TourCard />
-        <TourCard />
+    <Container maxWidth="lg">
+      <Grid container spacing={3}>
+        <TourCard imgRandom={1} />
+        <TourCard imgRandom={2} />
+        <TourCard imgRandom={3} />
+        <TourCard imgRandom={4} />
       </Grid>
     </Container>
   );
