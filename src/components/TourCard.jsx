@@ -36,7 +36,7 @@ export default function TourCard({ tour }) {
     <Grid item xs={3}>
       <ThemeProvider theme={theme}>
         <Paper elevation={5}>
-          <img src={tour.image} alt={tour.name} />
+          <img className="img-tour-list" src={tour.image} alt={tour.name} />
           <Box padding={1}>
             <Typography variant="h6" component="h2">
               {tour.name}
